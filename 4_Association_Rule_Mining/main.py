@@ -239,8 +239,12 @@ set_rule_output(least_conf_rules)
 
 
 # %%
-rules_of_form.to_csv("./Results/Asociation_Rules.csv", index=False, header=False)
-most_freq_itemset_3['output'].to_csv("./Results/Most_Frequent_Itemsets_3.csv", index=False, header=False)
-max_conf_rules['output'].to_csv("./Results/Highest_Confidence_Rules.csv", index=False, header=False)
-least_conf_rules['output'].to_csv("./Results/Low_Confidence_Rules.csv", index=False, header=False)
+# rules_of_form.to_csv("./Results/Asociation_Rules.csv", index=False, header=False)
+# most_freq_itemset_3['output'].to_csv("./Results/Most_Frequent_Itemsets_3.csv", index=False, header=False)
+# max_conf_rules['output'].to_csv("./Results/Highest_Confidence_Rules.csv", index=False, header=False)
+# least_conf_rules['output'].to_csv("./Results/Low_Confidence_Rules.csv", index=False, header=False)
+rules_of_form.to_csv("./Results/Asociation_Rules.csv", index=False)
+most_freq_itemset_3['output'].to_csv("./Results/Most_Frequent_Itemsets_3.csv", index=False)
+max_conf_rules['output'].to_csv("./Results/Highest_Confidence_Rules.csv", index=False)
+least_conf_rules['output'].to_csv("./Results/Low_Confidence_Rules.csv", index=False)
 
