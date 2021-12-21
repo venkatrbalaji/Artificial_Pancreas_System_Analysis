@@ -1,0 +1,6 @@
+pandas==0.24.2
+openpyxl==2.6.4
+numpy==1.16.6
+scipy==1.2.3
+sklearn==0.0
+# pickle==2.0
